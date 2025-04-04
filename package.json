@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@types/annyang": "^2.6.5",
+    "@types/react-speech-recognition": "^3.9.6",
     "annyang": "^2.6.1",
     "next": "15.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-speech-recognition": "^4.0.0"
   },
   "devDependencies": {
     "typescript": "^5",

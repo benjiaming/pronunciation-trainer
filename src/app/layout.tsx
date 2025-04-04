@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: "Test your Chinese Pronunciation",
 };
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="flex justify-between items-center p-4 bg-gray-800 text-white">
       <h1 className="text-2xl">Pronunciation Trainer</h1>
@@ -38,8 +38,7 @@ export const Header = () => {
     </header>
   );
 }
-
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="flex justify-center items-center p-4 bg-gray-800 text-white">
       <p>&copy; {new Date().getFullYear()} LTL / Ben Blazke</p>
